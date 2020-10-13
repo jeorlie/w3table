@@ -140,8 +140,8 @@ function w3Table()
     btn+='';
     if(entryCount > conf['rowCount'])
     {
-      btn+='<button class="w3-bar-item w3-left btn-nav-prev  w3-btn '+conf['btnNavCss']+'" style="margin-right:2px"><i class="fa fa-arrow-left"></i> PREV</button>';
-      btn+='<button class="w3-bar-item w3-left btn-nav-next  w3-btn '+conf['btnNavCss']+'"><i class="fa fa-arrow-right"></i> NEXT</button>';
+      btn+='<button class="w3-bar-item w3-left btn-nav-prev w3-padding-small  w3-btn '+conf['btnNavCss']+'" style="margin-right:2px"><i class="fa fa-arrow-left"></i> PREV</button>';
+      btn+='<button class="w3-bar-item w3-left btn-nav-next w3-padding-small w3-btn '+conf['btnNavCss']+'"><i class="fa fa-arrow-right"></i> NEXT</button>';
     }
     
     //btn+='<label class="w3-bar-item w3-right"><span class="w3-tag">'+entryCount+'</span></label><label class="w3-bar-item lbl-page-counter w3-right">PG: '+activeRowIndex+'/'+totalRowPages+'</label></div>';
